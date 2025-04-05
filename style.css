@@ -1,0 +1,80 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(208, 234, 182);
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    background-color: rgb(123, 162, 113);
+    color: white;
+    text-align: center;
+}
+header{
+    background-color: rgb(123, 162, 113);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+    padding-right: px;
+}
+nav a:hover{
+    color: white;
+}
+.marcoFormulario{
+    outline: 3px rgb(123, 162, 113) solid;
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+    padding:10px;
+    margin: auto;
+    background-color: white;
+}
+#mensaje{
+    width: 390px;
+    height: 150px;
+    border: 1px rgb(123, 162, 113) solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#email{
+    width: 390px;
+    height: 30px;
+    border: 1px rgb(123, 162, 113) solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#nombre{
+    width: 390px;
+    height: 30px;
+    border: 1px rgb(123, 162, 113) solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#apellido{
+    width: 390px;
+    height: 30px;
+    border: 1px rgb(123, 162, 113) solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#boton{
+    width: 395px;
+    height: 30px;
+    background-color: rgb(123, 162, 113);
+    border: 1px rgb(208, 234, 182);
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
