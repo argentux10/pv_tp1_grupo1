@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="pagina"> <!-- Enlace a un archivo CSS para estilos -->
+</head>
+<body>
+    <nav> <!--Barra de navegacion-->
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="museos.html">Museos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav> <!--Aqui termina la barra de navegacion-->
+
+    <header> <!--cabecera -->
+        <h1>Pagina de Contacto</h1>
+    </header>
+
+    <form action="ruta_a_donde_se_envia_el_formulario" method="metodo_de_envio"> <!--Inicio del formulario-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa su nombre">
+
+        <label for="nombre">Apellido:</label>:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingresa su apellido">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ej: correo.email@gmail.com">
+      
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe aqui su mensaje: "></textarea>
+      
+        <button type="submit">Enviar</button>
+    </form> <!--Fin del formulario-->
+
+    <footer> <!--Pie de pagina -->
+        <p>&copy; Grupo1 - Programacion Visual 2025</p>
+      </footer>
+</body>
+</html>
