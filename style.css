@@ -8,12 +8,11 @@ body{
 }
 footer{
     margin-top: auto;
-    background-color: rgb(123, 162, 113);
-    color: white;
+    background-color: rgb(205, 190, 230);
     text-align: center;
 }
 header{
-    background-color: rgb(123, 162, 113);
+    background-color: rgb(205, 190, 230);
     display: flex;
     justify-content: space-between;
     height: 40px;
