@@ -19,6 +19,10 @@ header{
     align-items: center;
     padding: 15px;
 }
+li{
+    list-style: none;
+    display: inline;
+}
 a{
     text-decoration: none;
     color: black;
@@ -94,5 +98,5 @@ nav a:hover{
 #texto{
     display: inline-block;
     vertical-align: top;
-    
-  }/*pertenece a los parrafos */
+}/*pertenece a los parrafos */
+  /*agrego los estilos que se encontraban dentro de la pagina index*/
